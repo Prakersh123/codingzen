@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #FFEE9E;
+        }    
+        .face{
+            width:500px;
+            height: 500px;
+            background-color:#FCD671;
+            border-radius: 50%; 
+            position: absolute;
+            top:300px;
+            left:700px;
+        }
+        .lefteye{
+            width: 50px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: black;
+            position: relative;
+            top:120px;
+            left:130px;
+            float: left;
+
+        }
+
+        .righteye{
+            width: 50px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: black;
+            position: relative;
+            top:120px;
+            left:230px;
+            float: left;
+            
+        }
+        .mouth{
+            width:200px;
+            height: 100px;
+            background-color: black;
+            border-radius: 0 0 200px 200px;
+            position: relative;
+            top:300px;
+            left:130px;
+        }
+        .mouth:hover{
+            border-radius:  200px 200px 0 0;
+        }
+        .tongue{
+            width:140px;
+            height: 70px;
+            background-color: white;
+            border-radius: 0 0 140px 140px;
+            position: relative;
+            left:30px;
+            top:10px;
+           
+        }
+        .tongue:hover{
+            border-radius:  140px 140px 0 0;
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="lefteye"></div>
+        <div class="righteye"></div>
+        <div class="mouth">
+            <div class="tongue"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+1. background color
+2. face( circle)
+3. eyes (ellipltical)
+4. mouth (semicircle) -->
